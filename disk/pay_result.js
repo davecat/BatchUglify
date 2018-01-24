@@ -1,1 +1,0 @@
-var app=new Vue({el:"#container",data:{idCode:"验证码",time:"10"},created:function(){this.init()},methods:{init:function(){console.log("加载vue")},setTime:function(){var e,i=this;0===this.time?(i.idCode="验证码",i.time=10,clearTimeout(e)):(i.idCode=i.time,i.time--,e=setTimeout(function(){i.setTime()},1e3))}}});
