@@ -5,7 +5,7 @@
 
 或者纯粹单独想压缩一些js的coder。有好的想法，请issue，欢迎pr。如果对你有帮助请随手一个star，thanks~
 
-#使用方法
+# 使用方法
 
 ```
 var filePath = path.resolve('./static/js');//输入文件夹
