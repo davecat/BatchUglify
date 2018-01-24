@@ -1,0 +1,19 @@
+{
+  "name": "BatchUglify",
+  "version": "1.0.0",
+  "description": "js批量压缩工具",
+  "main": "BatchUglify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ug": "node webpack.config.js"
+  },
+  "author": "dave",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "uglify-js": "^3.3.7"
+  }
+}
